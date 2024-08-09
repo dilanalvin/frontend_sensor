@@ -24,7 +24,7 @@ class _RiwayatViewState extends State<RiwayatView> {
 
       // The below request is the same as above.
       response = await dio.get(
-        'http://localhost:3000/sensor',
+        'http://202.10.40.176/api/sensor',
         queryParameters: {
           'page': page,
         },

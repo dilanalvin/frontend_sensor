@@ -66872,7 +66872,7 @@ l=A.ar(["page",b],t.N,m)
 k=A.arT()
 k.a="GET"
 s=6
-return A.a0(o.d.Bq(0,"http://localhost:3000/sensor",null,null,null,k,l,m),$async$uS)
+return A.a0(o.d.Bq(0,"http://202.10.40.176/api/sensor",null,null,null,k,l,m),$async$uS)
 case 6:j=d
 h.a=j
 if(J.e(J.b_(j.a,"status"),200))o.ar(new A.a8X(h,o))
